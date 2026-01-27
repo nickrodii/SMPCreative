@@ -1,0 +1,67 @@
+name: SmpCreative
+version: 1.0.0
+main: com.nickrodi.SmpCreative
+api-version: '1.21.11'
+author: nickrodi
+website: https://nickrodi.com
+description: Plugin for survival worlds allowing users to teleport to a "test" creative world.
+softdepend:
+  - WorldEdit
+
+commands:
+  creative:
+    description: Teleport to the creative world
+    usage: /creative
+  survival:
+    description: Go back to the survival world
+    usage: /survival
+  rtp:
+    description: Randomly teleport within the creative world border
+    usage: /rtp
+    permission: smpcreative.rtp
+  tp:
+    description: Send a teleport request to another player in the creative world
+    usage: /tp <player>
+    permission: smpcreative.tp
+  tpaccept:
+    description: Accept a teleport request
+    usage: /tpaccept <requester-uuid>
+    permission: smpcreative.tp.accept
+  tpdecline:
+    description: Decline a teleport request
+    usage: /tpdecline <requester-uuid>
+    permission: smpcreative.tp.accept
+  warp:
+    description: Manage or use warps in the creative world
+    usage: "/warp <name>|add <name>|remove <name>|list"
+    permission: smpcreative.warp
+  spawn:
+    description: Teleport to (0,0) in the creative world
+    usage: /spawn
+    permission: smpcreative.spawn
+
+permissions:
+  smpcreative.creative:
+    description: Allows access to the /creative command
+    default: true
+  smpcreative.survival:
+    description: Allows access to the /survival command
+    default: true
+  smpcreative.rtp:
+    description: Allows access to the /rtp command in the creative world
+    default: true
+  smpcreative.tp:
+    description: Allows sending teleport requests with /tp in the creative world
+    default: true
+  smpcreative.tp.accept:
+    description: Allows accepting or declining teleport requests
+    default: true
+  smpcreative.warp:
+    description: Allows creating, using, and removing warps in the creative world
+    default: true
+  smpcreative.spawn:
+    description: Allows teleporting to creative spawn with /spawn
+    default: true
+  smpcreative.admin:
+    description: Allows reloading the plugin and managing settings
+    default: op

@@ -1,0 +1,15 @@
+#
+#     SMPCreative CONFIGURATION
+#
+#        Created by nickrodi!
+#      Thx for using my plugin
+#
+
+# Name of the creative world that players are sent to upon entering /creative.
+# This usually shouldn't be changed, only mess with this if you know what you're doing.
+creative_world_name: world_creative
+
+# WorldEdit block change limit applied to non-op players inside the creative world.
+# This only matters if WorldEdit is installed alongside this plugin.
+# Be careful changing this as making it too high can cause instability and may crash the server!
+worldedit_block_limit: 50000

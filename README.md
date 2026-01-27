@@ -21,7 +21,7 @@ Permissions are preset to only give players creative mode and other operator per
 - Automatically generates a dedicated flat world
 - Sets safe gamerules for build testing like disallowing natural mob spawning and no daylight/weather cycle
 
----
+##
 
 ### Full Inventory & Player State Separation
 Survival and Creative player states are completely separated, including:
@@ -30,13 +30,13 @@ Survival and Creative player states are completely separated, including:
 - Health, hunger, experience
 - Active potion effects
 
----
+##
 
 ### Advancement Revocation
 - Automatically detects advancements earned in the Creative world
 - Instantly revokes them upon re-entering survival to ensure creative environment doesn't give cheated progress
 
----
+##
 
 ### Drag & Drop WorldEdit Integration
 If **WorldEdit** is installed:
@@ -44,7 +44,7 @@ If **WorldEdit** is installed:
 - Non-OP players will have their WorldEdit permissions instantly revoked upon re-entering survival. No permission plugin needed!
 - Enforces a configurable **block change limit** for non-OP players to prevent server lag / crashing (default: `50,000`)
 
----
+##
 
 ### Custom Teleportation & Utility Commands
 Includes Creative-only travel systems:
@@ -57,7 +57,7 @@ Includes Creative-only travel systems:
 
 ---
 
-## 📥 Installation
+## Installation
 
 1. Ensure you have a working [installation of PaperMC](https://papermc.io/downloads/paper) on your Minecraft server
 2. Download the latest `.jar` release from [Modrinth](https://modrinth.com/project/smpcreative)
@@ -85,7 +85,7 @@ The plugin will automatically generate the creative world (`world_creative`) on 
 | `/tpdecline` | `smpcreative.tp.accept` | Decline a pending teleport request *(Creative only)* |
 
 **Default permissions:**  
-All permissions are set to `true` only while in the Creative world, and are set to `fals` otherwise.
+All permissions are set to `true` only while in the Creative world, and are set to `false` otherwise.
 
 ---
 

@@ -70,7 +70,7 @@ public class PlayerDataManager {
         player.setExp(0);
         player.setLevel(0);
         player.setFoodLevel(20);
-        player.setHealth(20);
+        player.setHealth(getClampedHealth(player, 20));
 
         // if no data exists its just a fresh start
         if (!config.contains(path)) {
@@ -97,7 +97,7 @@ public class PlayerDataManager {
             List<PotionEffect> effects = (List<PotionEffect>) config.getList(path + ".effects");
             if (effects != null) player.addPotionEffects(effects);
 
-            player.setHealth(Math.min(config.getDouble(path + ".health", 20), 20));
+            player.setHealth(getClampedHealth(player, config.getDouble(path + ".health", 20)));
             player.setFoodLevel(config.getInt(path + ".food", 20));
             player.setLevel(config.getInt(path + ".xp_level", 0));
             player.setExp((float) config.getDouble(path + ".xp_points", 0));
@@ -113,5 +113,13 @@ public class PlayerDataManager {
         } catch (IOException e) {
             plugin.getLogger().log(Level.SEVERE, "Could not save playerdata.yml!", e);
         }
+    }
+
+    private double getClampedHealth(Player player, double desired) {
+        double max = player.getMaxHealth();
+        if (max < 0) {
+            return 0;
+        }
+        return Math.max(0.0, Math.min(desired, max));
     }
 }

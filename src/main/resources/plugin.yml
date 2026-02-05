@@ -1,7 +1,7 @@
-name: SmpCreative
-version: 1.0.1
+name: SMPcreative
+version: 1.0.2
 main: com.nickrodi.SmpCreative
-api-version: '1.21.11'
+api-version: '1.21'
 author: nickrodi
 website: https://nickrodi.com
 description: Plugin for survival worlds allowing users to teleport to a "test" creative world.

@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.nickrodi</groupId>
-    <artifactId>SMPCreative</artifactId>
-    <version>1.0.1</version>
+    <artifactId>SMPcreative</artifactId>
+    <version>1.0.2</version>
 
     <properties>
         <maven.compiler.release>21</maven.compiler.release>
@@ -34,3 +34,4 @@
     </dependencies>
 
 </project>
+

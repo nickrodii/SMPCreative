@@ -1,11 +1,11 @@
-# <div align="center">SMPCreative</div>
+# <div align="center">SMPcreative</div>
 
-[![Minecraft](https://img.shields.io/badge/Minecraft-PaperMC-4FC08D?style=for-the-badge)](https://papermc.io/)
+[![Minecraft](https://img.shields.io/badge/Minecraft-Spigot%2FPaper-4FC08D?style=for-the-badge)](https://www.spigotmc.org/)
 [![Java](https://img.shields.io/badge/Java-21-orange?style=for-the-badge)](https://www.oracle.com/java/technologies/downloads/)
 [![Build](https://img.shields.io/badge/Build-Maven-blue?style=for-the-badge)](https://maven.apache.org/)
 [![Website](https://img.shields.io/badge/website-nickrodi.com-lightgrey?style=for-the-badge)](https://nickrodi.com)
 
-**SMPCreative** is a Paper Minecraft plugin designed for small survival multiplayer servers. 
+**SMPcreative** is a Spigot/Paper (Bukkit API) Minecraft plugin designed for small survival multiplayer servers. 
 It allows players to teleport to a dedicated **Creative world** to test builds, redstone, or designs **without affecting their survival gameplay at all**.
 
 ### [<div align="center">Download on Modrinth</div>](https://modrinth.com/project/smpcreative)
@@ -59,9 +59,9 @@ Includes Creative-only travel systems:
 
 ## Installation
 
-1. Ensure you have a working [installation of PaperMC](https://papermc.io/downloads/paper) on your Minecraft server
+1. Ensure you have a working installation of Spigot or Paper (any Bukkit-compatible 1.21.x server)
 2. Download the latest `.jar` release from [Modrinth](https://modrinth.com/project/smpcreative)
-3. Place it into your server’s `plugins` folder
+3. Place it into your server's `plugins` folder
 4. *(Optional)* Install **WorldEdit** into the `plugins` folder as well to be able to utilize WorldEdit features in the creative world
 5. Restart your server
 
@@ -95,7 +95,7 @@ Customize behavior in `config.yml`:
 
 ```yaml
 #
-#     SMPCreative CONFIGURATION
+#     SMPcreative CONFIGURATION
 #
 #        Created by nickrodi!
 #
@@ -109,3 +109,4 @@ creative_world_name: world_creative
 # Be careful changing this as making it too high can cause instability and may crash the server!
 worldedit_block_limit: 50000
 ```
+

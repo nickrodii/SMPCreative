@@ -108,7 +108,7 @@ public class SmpCreative extends JavaPlugin {
             });
         }
 
-        getLogger().info("SMPCreative enabled!");
+        getLogger().info("SMPcreative enabled!");
     }
 
     @Override
@@ -116,7 +116,7 @@ public class SmpCreative extends JavaPlugin {
         if (worldEditManager != null) {
             worldEditManager.disableAll();
         }
-        getLogger().info("SMPCreative disabled.");
+        getLogger().info("SMPcreative disabled.");
     }
 
     public LocationManager getLocationManager() {
@@ -143,3 +143,4 @@ public class SmpCreative extends JavaPlugin {
         return warpManager;
     }
 }
+

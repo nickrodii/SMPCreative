@@ -1,5 +1,5 @@
 #
-#     SMPCreative CONFIGURATION
+#     SMPcreative CONFIGURATION
 #
 #        Created by nickrodi!
 #      Thx for using my plugin
@@ -13,3 +13,4 @@ creative_world_name: world_creative
 # This only matters if WorldEdit is installed alongside this plugin.
 # Be careful changing this as making it too high can cause instability and may crash the server!
 worldedit_block_limit: 50000
+

@@ -1,4 +1,4 @@
-# <div align="center">SMPcreative</div>
+![SMPcreative](https://cdn.modrinth.com/data/cached_images/0cc4502443c26e0f63904a7e624149f533d5ea32.png)
 
 [![Minecraft](https://img.shields.io/badge/Minecraft-Spigot%2FPaper-4FC08D?style=for-the-badge)](https://www.spigotmc.org/)
 [![Java](https://img.shields.io/badge/Java-21-orange?style=for-the-badge)](https://www.oracle.com/java/technologies/downloads/)

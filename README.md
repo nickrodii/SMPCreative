@@ -5,7 +5,7 @@
 [![Build](https://img.shields.io/badge/Build-Maven-blue?style=for-the-badge)](https://maven.apache.org/)
 [![Website](https://img.shields.io/badge/website-nickrodi.com-lightgrey?style=for-the-badge)](https://nickrodi.com)
 
-**SMPcreative** is a Spigot/Paper (Bukkit API) Minecraft plugin designed for small survival multiplayer servers. 
+**SMPcreative** is a Minecraft plugin designed for small survival multiplayer servers. 
 It allows players to teleport to a dedicated **Creative world** to test builds, redstone, or designs **without affecting their survival gameplay at all**.
 
 ### [<div align="center">Download on Modrinth</div>](https://modrinth.com/project/smpcreative)
